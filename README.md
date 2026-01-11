@@ -1,5 +1,5 @@
-# IE-lab
-Basics of Internet Engineering Lab.
+# Basics of Internet Engineering Lab
+*Author: [royastik27](https://github.com/royastik27)*
 
 ## 1. Configure a LAN Using HUB and observe its behavior.
 ### Hubs
