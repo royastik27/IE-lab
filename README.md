@@ -12,12 +12,12 @@ Basics of Internet Engineering Lab.
 
 > **PDU (Protocol Data Unit):** In simple terms, a PDU is the **technical name** for a unit of data at any specific layer of the OSI model. While people often use the word "packet" for everything, "packet" is actually only the name for data at Layer 3.
 
-| OSI Layer | PDU Name | What it contains |
-| :--- | :--- | :--- |
-| **7. Application** | **Data** | Network services (HTTP, FTP, SMTP) |
-| **6. Presentation** | **Data** | Encryption, Compression, Formatting |
-| **5. Session** | **Data** | Session management and Synchronization |
-| **4. Transport** | **Segment / Datagram** | Data + Port numbers (TCP/UDP) |
-| **3. Network** | **Packet** | Data + IP addresses |
-| **2. Data Link** | **Frame** | Data + MAC addresses |
-| **1. Physical** | **Bits** | Raw binary (0s and 1s) |
+| OSI Layer | What it does | PDU Name | What it contains |
+| :--- | :--- | :--- | :--- |
+| **7. Application** | Provides network services to applications | Data | Message / User Data |
+| **6. Presentation** | Translates, encrypts, and compresses data | Data | Translated / Formatted Data |
+| **5. Session** | Manages and terminates connections | Data | Dialogue / Session Markers |
+| **4. Transport** | Ensures reliable delivery and error recovery | Segment / Datagram | Port Numbers + Data |
+| **3. Network** | Routes data through logical paths | Packet | IP Addresses + Data |
+| **2. Data Link** | Provides physical addressing and error detection | Frame | MAC Addresses + Data |
+| **1. Physical** | Transmits raw data over physical media | Bits | Electrical / Binary Pulses |
