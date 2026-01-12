@@ -6,7 +6,7 @@
 - Hubs work at the **physical layer** of the OSI model.
 - Used to set up **LAN**.
 - **Layer 1 (Physical)** device.
-- - When data is sent from one computer to another, at first the data is broadcasted over the network (except the sender device) and only the intendent receiver accepts the data.
+- When data is sent from one computer to another, at first the data is broadcasted over the network (except the sender device) and only the intendent receiver accepts the data.
 - When we connect computers with a hub, we make a **star topology**.
 
 ### Note
