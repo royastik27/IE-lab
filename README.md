@@ -24,6 +24,8 @@
 | **2. Data Link** | Provides physical addressing and error detection | Frame | MAC Addresses + Data |
 | **1. Physical** | Transmits raw data over physical media | Bits | Electrical / Binary Pulses |
 
+***
+
 ## 2. Configure a LAN using switch and observe its behavior.
 
 > Switches are also used to set up a **LAN**. Unlike hub, switches have **memory**. It stores MAC address table. **Layer 2 (Data Link)** device. It send the data to the exact destination without broadcasting over the network.
