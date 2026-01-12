@@ -5,10 +5,12 @@
 ### Hubs
 - Hubs work at the **physical layer** of the OSI model.
 - Used to set up **LAN**.
-
-### Notes
-- **A Hub or A switch** can be used for the problem.
+- **Layer 1 (Physical)** device.
+- - When data is sent from one computer to another, at first the data is broadcasted over the network (except the sender device) and only the intendent receiver accepts the data.
 - When we connect computers with a hub, we make a **star topology**.
+
+### Note
+- **A Hub or A switch** can be used for the problem.
 
 > **PDU (Protocol Data Unit):** In simple terms, a PDU is the **technical name** for a unit of data at any specific layer of the OSI model. While people often use the word "packet" for everything, "packet" is actually only the name for data at Layer 3.
 
@@ -21,3 +23,7 @@
 | **3. Network** | Routes data through logical paths | Packet | IP Addresses + Data |
 | **2. Data Link** | Provides physical addressing and error detection | Frame | MAC Addresses + Data |
 | **1. Physical** | Transmits raw data over physical media | Bits | Electrical / Binary Pulses |
+
+## 2. Configure a LAN using switch and observe its behavior.
+
+> Switches are also used to set up a **LAN**. Unlike hub, switches have **memory**. It stores MAC address table. **Layer 2 (Data Link)** device. It send the data to the exact destination without broadcasting over the network.
